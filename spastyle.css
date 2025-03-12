@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Cardo:wght@400;700&display=swap");
+body {
+  font-family: "cardo", serif;
+  background-color: #f4f4f4;
+  color: #1b3a57;
+  margin: 0;
+  padding: 0;
+}
+
+.hero,
+.footer {
+  background: linear-gradient(135deg, #121212, #1b3a57);
+  margin-top: 0;
+  height: 100vh;
+  border-bottom: 15px solid #8c7851;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #8c7851;
+  text-align: center;
+  width: 100%;
+}
+#H1 {
+  font-weight: 900;
+  color: #8c7851;
+}
+.logo {
+  width: 20rem;
+  margin-top: 0;
+  height: 300px;
+  background-image: url(Your_paragraph_text__2_-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-self: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+nav a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #8c7851;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  transition: 0.2s all ease-in-out;
+}
+svg {
+  fill: #8c7851;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  transition: 0.4s ease-in-out;
+}
+#home {
+  width: 90px;
+  height: 90px;
+}
+svg:hover {
+  fill: #b9a06f;
+}
+a:hover {
+  color: #b9a06f;
+  transform: scale(1.2);
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  align-self: center;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 90%;
+  margin-bottom: 25px;
+}
+.search-bar input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+
+.search-bar input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-bar button {
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  background: none;
+}
+.spa {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.headline {
+  font-size: 3rem;
+  color: #8c7851;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #121212, #1b3a57);
+  border: 2px solid #8c7851;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.image {
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 2px solid #8c7851;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+#massage {
+  background-image: url("https://img.freepik.com/free-photo/herbal-compress-herbal-spa-treatment-equipments-put-dark-floor_1150-34493.jpg?t=st=1741803493~exp=1741807093~hmac=59342abcedf65b8f7a69e713ce9e57fe506c3d14d526c8e5762eb964ffb66292&w=1060");
+}
+#facial {
+  background-image: url("https://img.freepik.com/free-photo/cosmetologist-cleaning-face-woman-beauty-salon_1303-16748.jpg?t=st=1741803696~exp=1741807296~hmac=3da71f07f99b13090f8683d556ed849f1111a979a609e1daa13e52765e71aef7&w=1060");
+}
+#sauna {
+  background-image: url("https://img.freepik.com/free-photo/clean-empty-sauna-room_23-2149283631.jpg?t=st=1741803735~exp=1741807335~hmac=06c5b8fc3166d48dbaf1e1d0538bb76a5676be475fdb2115f2cf9406db6807db&w=1060");
+}
+#manicure {
+  background-image: url("https://img.freepik.com/free-photo/healthy-beautiful-manicure-manicurist_23-2148766558.jpg?t=st=1741803777~exp=1741807377~hmac=d6ceeae72b4c97fefc5f856dc2ac0b55025590006c94532a0480335be140cb86&w=1060");
+}
+
+.name {
+  font-size: 2rem;
+  color: #8c7851;
+  margin: 20px 0 10px;
+}
+
+.desc {
+  font-size: 1.2rem;
+  color: #8c7851;
+  padding: 0 20px 30px;
+}
+.btn {
+  background-color: #8c7851;
+  color: #101010;
+  padding: 15px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #a89267;
+}

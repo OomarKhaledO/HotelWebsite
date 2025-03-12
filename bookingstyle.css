@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Cardo:wght@400;700&display=swap");
+
+body {
+  background: white;
+  color: #8c7851;
+  font-family: "cardo", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.hero,
+.footer {
+  background: linear-gradient(135deg, #121212, #1b3a57);
+  margin-top: 0;
+  height: 100vh;
+  border-bottom: 15px solid #8c7851;
+  border-top: 15px solid #8c7851;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #8c7851;
+  text-align: center;
+  width: 100%;
+}
+#H1 {
+  font-weight: 900;
+  color: #8c7851;
+}
+.logo {
+  width: 20rem;
+  margin-top: 0;
+  height: 300px;
+  background-image: url(Your_paragraph_text__2_-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-self: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+nav a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #8c7851;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  transition: 0.2s all ease-in-out;
+}
+svg {
+  fill: #8c7851;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  transition: 0.4s ease-in-out;
+}
+#home {
+  width: 90px;
+  height: 90px;
+}
+svg:hover {
+  fill: #b9a06f;
+}
+a:hover {
+  color: #b9a06f;
+  transform: scale(1.2);
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  align-self: center;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 90%;
+  margin-bottom: 25px;
+}
+.search-bar input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+
+.search-bar input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-bar button {
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  background: none;
+}
+
+.booking-section {
+  padding: 5rem;
+  width: 70%;
+  border-radius: 12px;
+}
+
+.booking-container {
+  background: linear-gradient(135deg, #121212, #1b3a57);
+  padding: 3rem;
+  border: 15px solid #8c7851;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.headline {
+  font-size: 3rem;
+  text-align: center;
+  color: #8c7851;
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  font-size: 1.2rem;
+  color: #8c7851;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 95%;
+  gap: 1.5rem;
+}
+
+label {
+  font-size: 1.2rem;
+  color: #8c7851;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  background: linear-gradient(135deg, #121212, #1b3a57);
+  border: 2px solid #8c7851;
+  border-radius: 8px;
+  color: #8c7851;
+  margin: 10px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #f4c95d;
+}
+
+.btn {
+  background-color: #8c7851;
+  color: #0d1b2a;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #f4c95d;
+  color: #1b3a57;
+}
